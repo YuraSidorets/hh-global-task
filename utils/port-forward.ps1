@@ -1,0 +1,1 @@
+kubectl port-forward svc/jobservice-service 5000:5000 --namespace jobservice

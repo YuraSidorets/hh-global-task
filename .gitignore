@@ -1,0 +1,9 @@
+/**/bin
+/**/obj
+.vs
+/**/*.user
+/server/ApiGateway.WebApi/ApiGateway.WebApi.xml
+TestResults/
+TestReport/
+/demo/server/ApiGateway.Demo.WebApi/ApiGateway.Demo.WebApi.xml
+.idea/

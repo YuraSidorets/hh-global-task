@@ -1,0 +1,18 @@
+environment: development
+
+apphost: k8s
+
+label:
+  name: test
+
+container:
+  name: jobservice
+  image: job-service
+  pullPolicy: IfNotPresent
+  tag: latest
+  port: 5000
+replicas: 1
+
+service:
+  port: 5000
+  type: ClusterIP
