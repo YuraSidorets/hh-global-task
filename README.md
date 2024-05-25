@@ -72,7 +72,7 @@ cd utils
 #### Example Request 
 
 #### Url
-`http://localhost:5000/api/job/total`
+POST `http://localhost:5000/api/job/total`
 
 ```json
 {
